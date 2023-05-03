@@ -1,5 +1,6 @@
 import React from "react";
 import Home from "./components/Home";
+import TopHeader from "./components/TopHeader";
 import Products from "./components/Products";
 import img1 from './assets/note10.jpg'
 import img2 from './assets/ok.webp'
@@ -47,7 +48,8 @@ function App() {
   return (
     <div className="flex">
       <div className="flex-1">
-        <Home name={class_.name} age={class_.age} />
+        {/* <Home name={class_.name} age={class_.age} /> */}
+        <TopHeader/>
         <Products products={items} />
       </div>
     </div>

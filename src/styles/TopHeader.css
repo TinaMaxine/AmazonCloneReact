@@ -1,0 +1,15 @@
+.firstnav {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex: 1 1 auto; */
+    background-color: #131921;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .firstnav a {
+    text-decoration: none;
+    color: white;
+  }

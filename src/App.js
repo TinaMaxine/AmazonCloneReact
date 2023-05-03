@@ -3,6 +3,8 @@ import Home from "./components/Home";
 import Products from "./components/Products";
 import img1 from './assets/note10.jpg'
 import img2 from './assets/ok.webp'
+import img3 from './assets/iphone14.jpg'
+import img4 from './assets/oneplustab.webp'
 
 function App() {
   let class_={
@@ -24,6 +26,21 @@ function App() {
       price: 65000,
       image: img1,
       id: 2
+    },
+    {
+      name: "Mobile Phone - Iphone",
+      description: "Iphone 14 pro",
+      price: 135000,
+      image: img3,
+      id: 3
+    }
+    ,
+    {
+      name: "Tablet - Oneplus",
+      description: "Oneplus tab",
+      price: 35390,
+      image: img4,
+      id: 4
     }
   ];
 

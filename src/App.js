@@ -1,6 +1,8 @@
 import React from "react";
 import Home from "./components/Home";
 import Products from "./components/Products";
+import img1 from './assets/note10.jpg'
+import img2 from './assets/ok.webp'
 
 function App() {
   let class_={
@@ -13,14 +15,14 @@ function App() {
       name: "Gaming Laptop",
       description: "This is a gaming laptop",
       price: 75000,
-      image: './assets/ok.webp',
+      image: img2,
       id: 1
     },
     {
       name: "Mobile Phone - Samsung",
       description: "Note 10",
       price: 65000,
-      image: './assets/34328.jpg',
+      image: img1,
       id: 2
     }
   ];

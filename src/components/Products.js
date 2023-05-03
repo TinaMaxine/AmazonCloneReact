@@ -8,7 +8,9 @@ const Products = (props) => {
     <div className="products">
       {products.map((product) => (
         <div key={product.id} className="card">
-          <img src={product.image} alt={product.name} />
+          <div className="card-image">
+            <img src={product.image} alt={product.name} style={{ width: '220px', height: '250px' }} />
+          </div>
           <h3>{product.name}</h3>
           <p>{product.description}</p>
           <p>Price: {product.price}</p>

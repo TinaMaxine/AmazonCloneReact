@@ -13,3 +13,49 @@
     text-decoration: none;
     color: white;
   }
+
+      .firstnav input {
+        width: 650px;
+        height: 28px;
+        /* border-radius: 5px; */
+      }
+      .search-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search-box i {
+        /* border: 2px solid #cdcdcd; */
+        height: 16px;
+        width: 40px;
+        padding: 8px;
+        border-left: 0;
+        background: #FEBD69;
+        /* padding-right: 5px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .search-box select {
+        background: #F3F3F3;
+    }
+    select{
+        width: 55px; 
+        height: 32px; 
+    }
+    #stupida{
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flagAndLanguage{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
